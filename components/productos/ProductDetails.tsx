@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils';
 
 interface ProductDetailsProps {
   product: {
-    id: number;
+    id: string | number;  // Modificar esta línea
     name: string;
     description: string;
     price: number;
